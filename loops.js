@@ -24,6 +24,6 @@ function incrementVariable() {
   return i;
 }
 do {
-  console.log("I run once regardless.");} while (incrementVariable() < int)
+  console.log("I run once regardless.");} while incrementVariable() < int;
 }
 }
