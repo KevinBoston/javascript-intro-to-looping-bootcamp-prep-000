@@ -9,8 +9,12 @@ function forLoop(arr){
   return arr;
 }
 
-function whileLoop(){
-  
+function whileLoop(num){
+  while (num > 0) {
+  console.log(num);
+  num--;
+  }
+  return 'done';
 }
 
 function doWhileLoop(){
